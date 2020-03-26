@@ -58,7 +58,7 @@
   width: 90%;
   text-align: center;
   background-color: var(--black);
-  color: var(--red);
+  color:yellow;
   padding: 5%;
 }
 
@@ -67,6 +67,7 @@
   font-size: 9rem;
   padding: 2rem;
   text-align: center;
+  color:yellow;
   background-color: var(--black);
   border: 2px solid white;
   border-radius: 6px;
@@ -95,7 +96,7 @@
 .quarter__value {
   font-family: "Ozone";
   font-size: 5rem;
-  color: var(--red);
+  color: yellow;
   width: 7rem;
   text-align: center;
   background-color: var(--black);
@@ -106,7 +107,7 @@
 }
 
 .buttons {
-  width: 50%;
+ 
   margin: 0 auto;
   display: flex;
   justify-content: space-around;
