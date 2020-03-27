@@ -16,8 +16,7 @@ function App(props) {
    extra2 = team2 + 1,
    [reset, setReset] = useState(),
    home = `Home`,
-   away = `Away`,
-   time=`15:00`
+   away = `Away`
    
    
 
