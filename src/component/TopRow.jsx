@@ -1,9 +1,9 @@
 import React, { useState } from "react";
-import {Timer} from "./Timer";
+// import {Timer} from "./Timer";
 
 
 let TopRow = props => {
-  const { team1, team2, home, away,time } = props;
+  const { team1, team2, home, away } = useState( props);
   return (
     <div className="topRow">
       <div className="home">
@@ -13,7 +13,7 @@ let TopRow = props => {
 
         <div className="home__score">{team1}</div>
       </div>
-      <Timer />
+      <div className="timer">00:25</div>
       <div className="away">
         <h2 className="away__name">{away}</h2>
         <div className="away__score">{team2}</div>
