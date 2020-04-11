@@ -4,7 +4,7 @@ import "./App.css";
 import BottomRow from "./component/BottomRow";
 import TopRow from "./component/TopRow"
 // import {Buttons} from "./components/Buttons";
-function App(props) {
+function App() {
   //TODO: STEP 2 - Establish your applictaion's state with some useState hooks.  You'll need one for the home score and another for the away score.
   let [team1, setTeam1] = useState(0),
    [team2, setTeam2] = useState(0),

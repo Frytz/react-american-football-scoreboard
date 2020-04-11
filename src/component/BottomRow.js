@@ -2,20 +2,26 @@ import React, { useState } from "react";
 
 
 
+
 const BottomRow = props => {
   let [quarter, setQuarter] = useState(0);
+  let [down, setDown]= useState(0)
 
   const { reset, setReset } = props;
 
   if (quarter <= 3) {
     quarter++;
   }
-
+if  (down <= 3){
+  down ++;
+}
   return (
     <div className="bottomRow">
       <div className="down">
         <h3 className="down__title">Down</h3>
-        <div className="down__value">3</div>
+  <div className="down__value">{down}</div>
+  <button className= "buttons" onClick = {() => setDown(down)}>Down</button>
+  <button className=  "buttons" onClick= {() => setDown(down *0)}>Reset</button>
       </div>
       <div className="toGo">
         <h3 className="toGo__title">To Go</h3>
